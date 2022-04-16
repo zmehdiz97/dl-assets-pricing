@@ -1,0 +1,16 @@
+name: my-env
+channels:
+  - conda-forge
+  - pytorch
+  - dglteam
+dependencies:
+  - python=3.8
+  - pip
+  - matplotlib
+  - jupyter
+  - jupyterlab
+  - pytorch>=1.4
+  - librosa
+  - nb_conda_kernels
+  - dgl>=0.4.3
+  - statsmodels
